@@ -70,7 +70,7 @@ class TestCalculator(unittest.TestCase):
     #     # Test basic function
     #     fill in code
     ##########################
-    def test_squrt(self):
+    def test_sqrt(self):
         self.assertAlmostEqual(square_root(4),2.0)
         self.assertAlmostEqual(square_root(0),0,0)
         with self.assertRaises(ValueError):
